@@ -1,0 +1,15 @@
+{
+  "dry_run": false,
+  "snapshot_prefix": "autosnap",
+  "datasets": [
+    "shared/immich-library",
+    "shared/trilium",
+    "shared/homepage-config",
+    "shared/torrent-config"
+  ],
+  "retention": {
+    "daily": 7,
+    "weekly": 4,
+    "monthly": 3
+  }
+}
