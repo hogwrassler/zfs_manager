@@ -69,10 +69,10 @@ You can run the script manually at any time. Because it uses `sudo` internally t
 
 ```bash
 # Run with the default config (zfs_config.json in the same directory)
-sudo /home/ian/scripts/zfs_manager.py
+sudo /home/<path>/scripts/zfs_manager.py
 
 # Run with a custom config file
-sudo /home/ian/scripts/zfs_manager.py -c /path/to/my-config.json
+sudo /home/<path>/scripts/zfs_manager.py -c /path/to/my-config.json
 ```
 While dry_run is true, this is completely safe to test your logic.
 
