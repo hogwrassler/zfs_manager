@@ -5,7 +5,10 @@
     "shared/immich-library",
     "shared/trilium",
     "shared/homepage-config",
-    "shared/torrent-config"
+    "shared/torrent-config",
+    "shared/backups",
+    "shared/documents",
+    "shared/media"
   ],
   "retention": {
     "daily": 7,
